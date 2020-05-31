@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="1226.0" prefWidth="720.0" style="-fx-border-insets: 0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="359.0" fitWidth="720.0" layoutX="-19.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@main.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="383.0" text="Introduction:" AnchorPane.leftAnchor="14.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Text layoutX="36.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The COVID-19 pandemic has taken the world by storm and resulted in various aspects of our lives being immensely affected by the consequences of the spread of the virus. The global economy has also been a victim of the coronavirus outbreak since a recession is about to take place. Medicine is not the only field of science that has been actively taking part in the fight against the coronavirus. Whether it’s Engineering or Computer Sciences, all disciplines of sciences are playing a role in helping the world with the state that it is in. For that reason, the team has taken the responsibility of using all the techniques and valuable information that is being learned in the CSC311 course to take part in tackling a real-life global scale problem such as the coronavirus epidemic by developing a COVID-19 Information System using Java." textAlignment="JUSTIFY" wrappingWidth="646.0" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="38.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label layoutX="14.0" layoutY="709.0" text="Aims and Objectives:" AnchorPane.leftAnchor="14.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Text layoutX="36.0" layoutY="764.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this project, we aim to use a graphical user interface to implement what we have learned in the ‘Java Programming for the Internet’ course and apply it to our project which will be about creating or designing a COVID-19 information system; the system we aim to design should have the main information such as the total number of cases, the number of infected per day and the total number of recovered. We also aim to make our application be as accurate as possible about the information by making the application refresh frequently to ensure the information is updated more often. The main objectives we are trying to achieve is to use as many methods and features that we learned in this course and implement them in our design; we would also like to achieve a userfriendly design that is simple and easy to interact with. By the end of our design we hope that it would help whoever uses it to be updated regularly about information regarding the spread of COVID-19." textAlignment="JUSTIFY" wrappingWidth="646.0" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="38.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
